@@ -19,7 +19,7 @@ Go to Shopify Plus Admin Dashboard of your Store: `Online Store` -> `Themes` -> 
 In `mastersoft-shopify.js` under `HarmonyShopifyConfig`:
 -	**key** (Mandatory)  
   	Must be in this format: **username-without-domain:password**.    
-  	**Get your FREE licence key [here](https://hosted.mastersoftgroup.com/console/#/).**  
+  	**Get your FREE Trial licence key [here](https://hosted.mastersoftgroup.com/console/#/).**  
 
 -	**url** (Optional)    
   	Default value: `https://hosted.mastersoftgroup.com`
