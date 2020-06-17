@@ -9,13 +9,16 @@ if(typeof Checkout === "object") {
             //default url: "https://hosted.mastersoftgroup.com"
             url: "https://hosted.mastersoftgroup.com",
             
+            //true to output street and postal in AddressLine1, building and subdwelling in AddressLine2 (default: false)
+            useAddressLine2: true,
+            
             //For all available options: http://developer.mastersoftgroup.com/harmony/api/object/address.html#FeatureOption.
             options: {
                 singleLineHitNumber: 5,
                 caseType: "TITLE"
             },
             
-        	//default sot: "AUPAF".
+        	//default sot: "AUPAF"
             auOptions: {
                 sot: "GNAF"
             },
@@ -29,7 +32,7 @@ if(typeof Checkout === "object") {
         var s = document.createElement("script");      
         s.type = "text/javascript";
         s.async = 1;       
-        s.src = "https://s3-ap-southeast-2.amazonaws.com/common.mastersoftgroup.com/scripts/harmony-shopify-current.min.js";
+        s.src = "https://common.mastersoftgroup.com/scripts/harmony-shopify-current.min.js";
         document.getElementsByTagName("head")[0].appendChild(s);
     }
 }
