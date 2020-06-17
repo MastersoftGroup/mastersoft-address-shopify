@@ -23,7 +23,13 @@ In `mastersoft-shopify.js` under `HarmonyShopifyConfig`:
 
 -	**url** (Optional)    
   	Default value: `https://hosted.mastersoftgroup.com`
-  
+
+-	**useAddressLine2** (Optional)  
+	Since: **v1.7.0** (`harmony-shopify-1.7.0.min.js`)  
+	Value `true` will output postal and street in AddressLine1 and building and subdwelling in AddressLine2.  
+	Value `false` will output as previous behavior: building, subdwelling, postal and street in AddressLine1.  
+	Default value: `false`   	
+
 -	**options**    
   	Generic Options for both AUSTRALIA and NEW ZEALAND.    
   	Default value: `{ singleLineHitNumber: 20, caseType: 'UPPER' }`
