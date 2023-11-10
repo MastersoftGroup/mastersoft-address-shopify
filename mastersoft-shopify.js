@@ -32,7 +32,7 @@ if(typeof Checkout === "object") {
         var s = document.createElement("script");      
         s.type = "text/javascript";
         s.async = 1;       
-        s.src = "https://common.mastersoftgroup.com/scripts/harmony-shopify-current.min.js";
+        s.src = "https://common.mastersoftgroup.com/scripts/harmony-shopify-2.0.0.min.js";
         document.getElementsByTagName("head")[0].appendChild(s);
     }
 }
